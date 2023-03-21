@@ -278,6 +278,7 @@
     }
 
     .cursos__chamada {
+        display: none;
         width: 450px;
     }
 
@@ -331,7 +332,7 @@
     }
 
     .video--desktop {
-        height: height: 19.8rem;
+        height: 19.8rem;
     }
 
 }
