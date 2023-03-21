@@ -1,0 +1,112 @@
+.rodape__secao--newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+    
+    .form-newsletter {
+        display: flex;
+        width: 50%;
+        overflow: hidden;
+        box-sizing: border-box;
+        border-radius: 7px;
+        border: 2px solid #e93d50;
+        background-color: #e93d50;
+    }
+
+    .form-newsletter__campo {
+        padding: .6rem .4rem;
+        flex-grow: 1;
+        border: none;
+
+    }
+
+    .form-newsletter__botao {
+        flex-grow: 1;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        background-color: #e93d50;
+        color: #fff;
+    }
+    @media screen and (min-width: 320px) and (max-width: 640px) {
+        .form-newsletter {
+            width: 80%;
+        }
+        .form-newsletter__campo {width: 100%;
+        
+        }
+    }
+    @media screen and (min-width: 640px) {
+
+        .rodape {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-size: 1rem;
+        }
+
+    }
+
+    @media screen and (min-width: 640px) and (max-width: 1200px) {
+
+        .rodape {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-size: 1rem;
+        }
+
+        .rodape__secao--sobre,
+        .rodape__secao--cursos,
+        .rodape__secao--links,
+        .rodape__secao--newsletter {
+            width: 45%;
+        }
+
+        .rodape__secao--cursos {
+            order: 1;
+            margin: 0;
+        }
+
+        .rodape__secao--links {
+            order: 2;
+            margin: 0;
+        }
+
+        .rodape__secao--sobre {
+            order: 3;
+            margin: 0;
+        }
+
+        .rodape__secao--newsletter {
+            order: 4;
+            margin: 0;
+        }
+
+        .form-newsletter {
+            width: 70%;
+            align-items: center;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        .rodape {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            text-align: left;
+            margin: 0 4em;
+        }
+        
+        .rodape__lista-titulo {
+            font-size: 1em;
+        }
+
+        .form-newsletter {
+            width: 100%;
+        }
+        
+    }

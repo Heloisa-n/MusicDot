@@ -1,0 +1,46 @@
+.rodape {
+     text-align: center;
+     font-size: 0.7rem;
+
+    }
+
+.lista__endereco-item {
+    font-size: 15px;
+}
+
+.rodape__logo {
+    width: 11.25em;
+}
+
+.rodape__social {
+    margin-bottom: 2em;
+
+}
+
+.rodape__social-imagem {
+    width: 2.62em;
+}
+
+.rodape__lista-endereço {
+    padding: 1em 0;
+}
+
+.lista__endereco-item {
+    margin-bottom: 0.2em;
+    
+}
+
+.rodape__lista-titulo {
+    font-size: 1.45em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.rodape__lista {
+    margin-bottom: 1em;
+}
+.rodape__lista-item {
+    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
